@@ -3,8 +3,8 @@ todo:
 2 selection sort
 3 insert sort
 4 merge sort
-5 linage search
-6 binary search
+5 linage search +
+6 binary search +
 7 reverse line +
 8 hashing "caesar cipher" +
 9 fibonacci +
