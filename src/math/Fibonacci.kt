@@ -1,3 +1,5 @@
+package math
+
 /**
  * Created by Partizanin on 24.07.2017 01:14:33.
  */

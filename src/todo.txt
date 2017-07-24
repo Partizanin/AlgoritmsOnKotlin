@@ -6,6 +6,6 @@ todo:
 5 linage search
 6 binary search
 7 reverse line +
-8 hashing "caesar cipher"
+8 hashing "caesar cipher" +
 9 fibonacci +
 10 factorial +

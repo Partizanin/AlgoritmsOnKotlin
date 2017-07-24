@@ -1,3 +1,5 @@
+package other
+
 /**
  * Created by Partizanin on 22.07.2017 14:55:47.
  */
