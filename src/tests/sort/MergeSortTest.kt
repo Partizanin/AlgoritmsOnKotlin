@@ -18,9 +18,11 @@ class MergeSortTest {
         val numbers = tempList.toIntArray()
 
         ms.sort(numbers)
+
         (0 until numbers.size - 1)
                 .filter { numbers[it] > numbers[it + 1] }
                 .forEach { fail() }
+
         assertTrue(true)
     }
 

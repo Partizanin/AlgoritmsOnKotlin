@@ -1,7 +1,7 @@
 todo:
-1 bobble sort
-2 selection sort
-3 insert sort
+1 bobble sort +
+2 selection sort +
+3 insert sort +
 4 merge sort +
 5 linage search +
 6 binary search +
