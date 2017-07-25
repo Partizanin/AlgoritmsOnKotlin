@@ -15,12 +15,11 @@ class MergeSortTest {
 
         var tempList = (1..100).toList()
         tempList = tempList.shuffled()
-        val numbers = tempList.toIntArray()
 
-        ms.sort(numbers)
+        ms.sort(tempList as ArrayList<Int>)
 
-        (0 until numbers.size - 1)
-                .filter { numbers[it] > numbers[it + 1] }
+        (0 until tempList.size - 1)
+                .filter { tempList[it] > tempList[it + 1] }
                 .forEach { fail() }
 
         assertTrue(true)

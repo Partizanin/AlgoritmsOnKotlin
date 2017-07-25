@@ -5,11 +5,11 @@ package sort
  * Created by Partizanin on 24.07.2017 18:54:36.
  */
 class MergeSort {
-    private var numbers = intArrayOf()
+    private var numbers = ArrayList<Int>()
     private var tempArr = intArrayOf()
     private var num = 0
 
-    fun sort(numbers: IntArray) {
+    fun sort(numbers: ArrayList<Int>) {
         this.numbers = numbers
         num = numbers.size
         tempArr = IntArray(num)
