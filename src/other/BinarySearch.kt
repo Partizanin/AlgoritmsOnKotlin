@@ -1,4 +1,4 @@
-package math
+package other
 
 /**
  * Created by Partizanin on 24.07.2017 17:15:23.
@@ -8,7 +8,7 @@ fun main(args: Array<String>) {
 }
 
 class BinarySearch {
-    fun bSearch(numbers: List<Int>, searchValue: Int): Int {
+    fun search(numbers: List<Int>, searchValue: Int): Int {
 
         val size = numbers.size
         var low = 0

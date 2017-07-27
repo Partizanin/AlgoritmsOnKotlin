@@ -1,8 +1,7 @@
-package math
+package other
 
+import org.junit.Assert.assertEquals
 import org.junit.Test
-
-import org.junit.Assert.*
 
 /**
  * Created by Partizanin on 24.07.2017 17:29:48.
@@ -18,7 +17,7 @@ class BinarySearchTest {
         println(System.currentTimeMillis() - t1)
 
         val searchValue = maxValue / 4
-        val numIndex = bs.bSearch(numbers, searchValue)
+        val numIndex = bs.search(numbers, searchValue)
 
         println(System.currentTimeMillis() - t1)
 
