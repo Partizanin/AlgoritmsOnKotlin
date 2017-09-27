@@ -1,7 +1,7 @@
-import math.Fibonacci
-import org.junit.Test
+package math
 
-import org.junit.Assert.*
+import org.junit.Assert.assertEquals
+import org.junit.Test
 
 /**
  * Created by Partizanin on 24.07.2017 01:20:04.
