@@ -3,9 +3,6 @@ package other
 /**
  * Created by Partizanin on 24.07.2017 17:15:23.
  */
-fun main(args: Array<String>) {
-
-}
 
 class BinarySearch {
     fun search(numbers: List<Int>, searchValue: Int): Int {

@@ -9,7 +9,7 @@ import org.junit.Test
 class CaesarCipherTest {
 
     @Test
-     fun encryptString() {
+    fun encryptString() {
         val cc = CaesarCipher()
         assertEquals(cc.encryptString("hello, world"), "khoor, zruog")
         assertEquals(cc.encryptString("hello, world"), "khoor, zruog")

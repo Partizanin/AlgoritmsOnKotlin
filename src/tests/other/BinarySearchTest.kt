@@ -12,11 +12,11 @@ class BinarySearchTest {
         val bs = BinarySearch()
         val t1 = System.currentTimeMillis()
 
-        val maxValue = 9999999
+        val maxValue = 1000
         val numbers = (0..maxValue).toList()
         println(System.currentTimeMillis() - t1)
 
-        val searchValue = maxValue / 4
+        val searchValue = 12/*maxValue / 4*/
         val numIndex = bs.search(numbers, searchValue)
 
         println(System.currentTimeMillis() - t1)

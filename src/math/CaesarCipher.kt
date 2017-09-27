@@ -3,10 +3,7 @@ package math
 /**
  * Created by Partizanin on 24.07.2017 12:45:52.
  */
-fun main(args: Array<String>) {
-    var cc = CaesarCipher()
-    println(cc.decryptString("THE"))
-}
+
 
 class CaesarCipher {
 

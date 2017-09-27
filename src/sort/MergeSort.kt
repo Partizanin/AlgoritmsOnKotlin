@@ -7,11 +7,10 @@ package sort
 class MergeSort {
     private var numbers = ArrayList<Int>()
     private var tempArr = intArrayOf()
-    private var num = 0
 
     fun sort(numbers: ArrayList<Int>) {
+        val num: Int = numbers.size
         this.numbers = numbers
-        num = numbers.size
         tempArr = IntArray(num)
         mergeSort(0, num - 1)
     }

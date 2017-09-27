@@ -1,8 +1,7 @@
+package sort
+
 import org.junit.Test
-import sort.BubbleSort
-import sort.InsertSort
-import sort.MergeSort
-import sort.SelectionSort
+
 
 /**
  * Created by Partizanin on 25.07.2017 21:59:12.

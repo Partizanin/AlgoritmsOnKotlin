@@ -1,5 +1,6 @@
-import org.junit.Assert.*
-import other.StringRevers
+package other
+
+import org.junit.Assert.assertEquals
 
 /**
  * Created by Partizanin on 22.07.2017 15:03:05.

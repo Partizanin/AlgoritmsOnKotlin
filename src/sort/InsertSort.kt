@@ -1,5 +1,7 @@
 package sort
 
+import java.util.*
+
 /**
  * Created by Partizanin on 25.07.2017 20:01:41.
  */
@@ -20,4 +22,10 @@ fun <E> java.util.ArrayList<E>.swap(index1: Int, index2: Int) {
     val tempValue = get(index1)
     set(index1, get(index2))
     set(index2, tempValue)
+}
+
+fun <E> List<E>.shuffled(): List<E> {
+    val result = this
+    Collections.shuffle(result)
+    return result
 }
